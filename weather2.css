@@ -1,0 +1,99 @@
+
+    #container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin:auto;
+    }
+    #container2{
+        /* border: 1px solid blue; */
+        padding: 10px;
+    }
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 600px;
+        width: 500px;
+        /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+      }
+      .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 600px;
+        width: 500px;
+        /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+      }
+      input{
+        width: 400px;  
+     }
+     button{
+        background-color:rgb(79, 76, 76) ;
+        color: white;
+        border: transparent;
+        border-radius: 3px;
+     }
+     input{
+      padding: 10px;
+      border: none;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+      width: 400px;
+      background-color: #acb6e5;
+  }
+  body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+    /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+    /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
+}
+.bot-left{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  padding: 15px;    
+}
+
+.bot-left>#ls ,.bot-left, #rs
+{
+  width: 100%;
+}
+#left{
+  margin-left: 40px;
+  margin: auto;
+  gap: 10px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  padding: 20px;
+  border-radius: 10px;
+  /* background-color: rgb(152, 95, 205); */
+  color: black;
+}
+#right{
+  margin: auto;
+}
+.bot-right{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  padding: 15px;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button{
+  margin-left: -5px;
+  /* background-color: rgb(152, 95, 205); */
+  border: none;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  width: 80px;
+}
+#week{
+  margin-left: 20px;
+  border-radius: 5px;
+}
+nav{
+  margin-bottom: 40px;
+}
